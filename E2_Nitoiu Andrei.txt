@@ -1,0 +1,6 @@
+x=randn(1,5)
+for i=1:5
+    if(x(j)<0)
+        a(j)
+    end
+end

@@ -1,0 +1,5 @@
+function [a,b,c]=E3(x)
+a=mean(real(x))
+b=x.*x
+c=x*x(:)
+end

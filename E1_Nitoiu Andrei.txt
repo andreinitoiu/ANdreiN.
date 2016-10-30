@@ -1,0 +1,6 @@
+x=0:0.1:2
+y=linspace(1,1,21)
+c=y(:)
+d=x*c
+e=c*x
+f=x.*y

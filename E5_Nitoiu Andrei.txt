@@ -1,0 +1,9 @@
+%Observatie: Daca pasul de variatie este mic atunci graficul este mai precis.%
+
+F = 50
+t = 0:0.0002:0.2
+s = 2*sin(2*pi*F*t)
+plot(t,s,'.-'),xlabel('Timp [s]'),grid
+
+
+%Este de observat faptul ca perioada va ramane constanta pentru toate cele 3 cazuri.%
